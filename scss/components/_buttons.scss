@@ -10,24 +10,42 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+    &:hover {
+      transition: background-color .2s ease-in-out;
+    }
   }
   
   .default {
     background-color: $secondary-color;
+    &:hover {
+      @include lighten($secondary-color);
+    }
   }
   
   .error {
     background-color: $error-color;
+    &:hover {
+      @include lighten($error-color);
+    }
   }
   
   .info {
     background-color: $info-color;
+    &:hover {
+      @include lighten($info-color);
+    }
   }
   
   .success {
     background-color: $success-color;
+    &:hover {
+      @include lighten($success-color);
+    }
   }
   
   .warning {
     background-color: $warning-color;
+    &:hover {
+      @include lighten($warning-color);
+    }
   }

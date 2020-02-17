@@ -6,6 +6,10 @@
     @content;
 }
 
+@mixin lighten ($color) {
+    background-color: lighten($color, 15%);
+}
+
 @mixin mq($size) {
     @media (min-width: $size) {
         @content;

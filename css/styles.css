@@ -449,29 +449,59 @@ a {
   border-radius: 5px;
 }
 
-/* line 15, ../../../../../Users/clairecalder/Documents/GitHub/TechDegree-project-4/scss/components/_buttons.scss */
+/* line 13, ../../../../../Users/clairecalder/Documents/GitHub/TechDegree-project-4/scss/components/_buttons.scss */
+.btn:hover {
+  transition: background-color .2s ease-in-out;
+}
+
+/* line 18, ../../../../../Users/clairecalder/Documents/GitHub/TechDegree-project-4/scss/components/_buttons.scss */
 .default {
   background-color: #51ddfc;
 }
 
-/* line 19, ../../../../../Users/clairecalder/Documents/GitHub/TechDegree-project-4/scss/components/_buttons.scss */
+/* line 20, ../../../../../Users/clairecalder/Documents/GitHub/TechDegree-project-4/scss/components/_buttons.scss */
+.default:hover {
+  background-color: #9cecfd;
+}
+
+/* line 25, ../../../../../Users/clairecalder/Documents/GitHub/TechDegree-project-4/scss/components/_buttons.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 23, ../../../../../Users/clairecalder/Documents/GitHub/TechDegree-project-4/scss/components/_buttons.scss */
+/* line 27, ../../../../../Users/clairecalder/Documents/GitHub/TechDegree-project-4/scss/components/_buttons.scss */
+.error:hover {
+  background-color: #f1b5b8;
+}
+
+/* line 32, ../../../../../Users/clairecalder/Documents/GitHub/TechDegree-project-4/scss/components/_buttons.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 27, ../../../../../Users/clairecalder/Documents/GitHub/TechDegree-project-4/scss/components/_buttons.scss */
+/* line 34, ../../../../../Users/clairecalder/Documents/GitHub/TechDegree-project-4/scss/components/_buttons.scss */
+.info:hover {
+  background-color: #bdafd9;
+}
+
+/* line 39, ../../../../../Users/clairecalder/Documents/GitHub/TechDegree-project-4/scss/components/_buttons.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 31, ../../../../../Users/clairecalder/Documents/GitHub/TechDegree-project-4/scss/components/_buttons.scss */
+/* line 41, ../../../../../Users/clairecalder/Documents/GitHub/TechDegree-project-4/scss/components/_buttons.scss */
+.success:hover {
+  background-color: #9ddfb0;
+}
+
+/* line 46, ../../../../../Users/clairecalder/Documents/GitHub/TechDegree-project-4/scss/components/_buttons.scss */
 .warning {
   background-color: #fd7856;
+}
+
+/* line 48, ../../../../../Users/clairecalder/Documents/GitHub/TechDegree-project-4/scss/components/_buttons.scss */
+.warning:hover {
+  background-color: #feb4a2;
 }
 
 /* ============================================= */
@@ -522,10 +552,10 @@ a {
   width: 100%;
 }
 
-/* line 19, ../../../../../Users/clairecalder/Documents/GitHub/TechDegree-project-4/scss/components/_navigation.scss */
+/* line 16, ../../../../../Users/clairecalder/Documents/GitHub/TechDegree-project-4/scss/components/_navigation.scss */
 .nav .nav-link:hover {
-  color: #fff;
   background-color: #99edd9;
+  color: #fff;
   transition: background-color .2s ease-in-out,  color .2s ease-in-out;
 }
 
